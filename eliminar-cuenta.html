@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Cuenta - Mi Mejor Versión</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo h1 {
+            color: #4CAF50;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        .logo p {
+            color: #666;
+            font-size: 14px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+        .warning-box h3 {
+            color: #856404;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .warning-box p {
+            color: #856404;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 18px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section li {
+            color: #555;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .steps {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .steps h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        .step-number {
+            background: #4CAF50;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .step-text {
+            color: #555;
+            line-height: 1.5;
+            padding-top: 3px;
+        }
+        .contact-box {
+            background: #e3f2fd;
+            border: 1px solid #2196F3;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-box h3 {
+            color: #1565c0;
+            margin-bottom: 10px;
+        }
+        .contact-box p {
+            color: #1565c0;
+            margin-bottom: 15px;
+        }
+        .contact-box a {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .contact-box a:hover {
+            background: #388E3C;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #999;
+            font-size: 12px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .data-table th {
+            background: #f5f5f5;
+            color: #333;
+        }
+        .data-table td {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>🌱 Mi Mejor Versión</h1>
+            <p>Aplicación de hábitos y bienestar</p>
+        </div>
+
+        <h2>Solicitud de Eliminación de Cuenta</h2>
+
+        <div class="warning-box">
+            <h3>⚠️ Advertencia Importante</h3>
+            <p>La eliminación de tu cuenta es permanente y no se puede deshacer. Todos tus datos serán eliminados de nuestros servidores.</p>
+        </div>
+
+        <div class="section">
+            <h3>📋 Datos que se eliminarán</h3>
+            <table class="data-table">
+                <tr>
+                    <th>Tipo de dato</th>
+                    <th>Acción</th>
+                </tr>
+                <tr>
+                    <td>Información de perfil (nombre, email)</td>
+                    <td>Se eliminará permanentemente</td>
+                </tr>
+                <tr>
+                    <td>Hábitos y registros</td>
+                    <td>Se eliminarán permanentemente</td>
+                </tr>
+                <tr>
+                    <td>Historial de actividades</td>
+                    <td>Se eliminará permanentemente</td>
+                </tr>
+                <tr>
+                    <td>Configuraciones personalizadas</td>
+                    <td>Se eliminarán permanentemente</td>
+                </tr>
+                <tr>
+                    <td>Datos de suscripción premium</td>
+                    <td>Se cancelará automáticamente</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h3>⏱️ Período de retención</h3>
+            <ul>
+                <li>Los datos se eliminarán dentro de <strong>30 días</strong> después de la solicitud.</li>
+                <li>Algunos datos pueden conservarse hasta 90 días por requisitos legales.</li>
+                <li>Los datos de transacciones de pago se conservan según las leyes fiscales aplicables.</li>
+            </ul>
+        </div>
+
+        <div class="steps">
+            <h3>📱 Cómo eliminar tu cuenta desde la app</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">Abre la aplicación <strong>Mi Mejor Versión</strong></div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">Ve a <strong>Configuración</strong> (ícono de engranaje)</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">Selecciona <strong>Cuenta</strong> o <strong>Perfil</strong></div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-text">Toca <strong>"Eliminar cuenta"</strong></div>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-text">Confirma la eliminación ingresando tu contraseña</div>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <h3>📧 ¿Necesitas ayuda?</h3>
+            <p>Si no puedes eliminar tu cuenta desde la app, contáctanos por correo electrónico y procesaremos tu solicitud manualmente.</p>
+            <a href="mailto:soporte@mimejorversion.app?subject=Solicitud de eliminación de cuenta&body=Hola, solicito la eliminación de mi cuenta asociada al correo: [TU_EMAIL]">
+                Solicitar eliminación por email
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 Mi Mejor Versión. Todos los derechos reservados.</p>
+            <p>Desarrollado por LGsus</p>
+        </div>
+    </div>
+</body>
+</html>
+
